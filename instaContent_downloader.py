@@ -136,7 +136,7 @@ if __name__ == '__main__':
     text1 = tk.StringVar()
     text2 = tk.StringVar()
     tk.Label(master,text="Instagram UserName ").grid(row=0)
-    tk.Label(master,text="Download Locatoin  ").grid(row=1)
+    tk.Label(master,text="Download Location ").grid(row=1)
     e1 = tk.Entry(master,textvariable=text1).grid(row=0, column=1)
     e2 = tk.Entry(master,textvariable=text2).grid(row=1, column=1)
     call_result = partial(call_result, text1, text2)  
